@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+   
+            <nav class="navbar">
+                <img class="r" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2JnjQJx1MU9s2GgZ7agDcXCVeQRABfVH4O0LXOyQIv0B6N3BW">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="electronics.html">Electronics</a></li>
+                    <li><a href="Fashion.html">Fashions</a></li>
+                    <li><a href="furniture.html">Furniture</a></li>
+                    <li><a href="beauty1.html">Beauty</a></li>
+                    <li><a href="BOOKS-1.html">Books,toys</a></li>
+                    <li><a href="home appliances.html">Home Appliances</a></li>
+                    <li><a href="account.html">Account</a></li>
+                   
+                   
+                    </ul>
+                   
+                    
+            
+        </div>
+        </nav>
+    
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+
+            <div class="slide first">
+                <img src="https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_792452-T2/images/G/31/Iqoo12/iQOO12/Iqoo12new/IQOO12lasdday/D103643090_WLD_BAU_iQOO_12_5G_New_Launch_tallhero_3000x1200._CB586191460_.jpg">
+            </div>
+            <div class="slide">
+                <img src="https://assets2.cbsnewsstatic.com/hub/i/2023/12/05/7ef2faaa-bf43-4333-b844-9d6fc6741b50/2-split-holiday-gift-guide-2023-1-5.png?v=5382e209c94ee904b3a96a69f8ca0ce0">
+            </div>
+            <div class="slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjSMb0NucAGVGO78yhaVDodu6Q31Jp7f9qJRtpekbZfg9w8OPOnHqGR_dLQ-ecDnC-_Mg&usqp=CAU">
+            </div>
+            <div class="slide">
+                <img src="https://images.fonearena.com/blog/wp-content/uploads/2021/12/Sony-India-Christmas-New-year-offers-1024x392.jpg">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+<div class="navigation-manual">
+    <label for="radio1"class="manual-btn"></label>
+    <label for="radio2"class="manual-btn"></label>
+    <label for="radio3"class="manual-btn"></label>
+    <label for="radio4"class="manual-btn"></label>
+
+</div>
+    </div>
+     <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter) .checked = true;
+             counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        }, 2000);
+     </script>
+      
+</body>
+
+</html>
